@@ -2,7 +2,6 @@ from flask import Flask, request
 from flask_sqlalchemy import SQLAlchemy
 import json, os
 
-
 class Config:
     SECRET_KEY = "wfsdgagasdfsafd"
     SQLALCHEMY_COMMIT_ON_TEARDOWN = True
